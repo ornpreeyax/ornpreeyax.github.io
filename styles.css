@@ -1,1 +1,92 @@
+/* การตั้งค่าเบื้องต้นของหน้า */
+body {
+    font-family: 'Prompt', sans-serif;
+    background-color: #f9f6f0; /* สีครีมอ่อน */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* กล่องข้อมูล */
+.resume {
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+
+/* หัวเรื่อง */
+h1, h2, h3 {
+    color: #555;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 1.3em;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* คำคม */
+p.quote {
+    font-style: italic;
+    color: #888;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* การศึกษาและทักษะ */
+.skills, .education, .contact {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    padding-left: 15px;
+    position: relative;
+}
+
+ul li::before {
+    content: '•';
+    color: #888;
+    position: absolute;
+    left: 0;
+}
+
+/* รูปแบบตารางข้อมูล */
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.info-table td {
+    padding: 8px 0;
+    vertical-align: top;
+}
+
+.info-table .label {
+    color: #777;
+    width: 30%;
+    font-weight: bold;
+}
 
